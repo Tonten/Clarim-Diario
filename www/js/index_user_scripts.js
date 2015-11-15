@@ -80,6 +80,20 @@
          uib_sb.toggle_sidebar($("#sidebar_lateral"));  
     });
     
+        /* graphic button  #Home2 */
+    $(document).on("click", "#Home2", function(evt)
+    {
+         /*global activate_subpage */
+         activate_subpage("#page_85_38"); 
+    });
+    
+        /* button  #btn_footer_Config */
+    $(document).on("click", "#btn_footer_Config", function(evt)
+    {
+         /*global activate_subpage */
+         activate_subpage("#page_1_18"); 
+    });
+    
     }
  document.addEventListener("app.Ready", register_event_handlers, false);
 })();
