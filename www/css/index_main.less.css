@@ -570,7 +570,7 @@ label:empty {
 }
 @media all {
   .iframe-size {
-    height: 420px;
+    height: 400px;
     width: 100%;
   }
 }
@@ -702,17 +702,46 @@ label:empty {
 }
 @media all {
   .default-graphic-sizing {
-    width: 150px !important;
+    height: 50px !important;
+    width: 100px !important;
     -webkit-flex: 0 0 auto !important;
     -moz-flex: 0 0 auto !important;
     -ms-flex: 0 0 auto !important;
     -o-flex: 0 0 auto !important;
     flex: 0 0 auto !important;
-    padding: 5px;
+    padding: 5px 5px 5px 5px;
   }
 }
 @media all {
   .default-image-sizing > img {
     width: 50px;
+    height: 20px;
+  }
+}
+@media all {
+  
+}
+@media all {
+  .uol > img {
+    width: 100%;
+  }
+}
+@media all {
+  .g1 > img {
+    width: 40%;
+    height: 90%;
+  }
+}
+@media all {
+  .bbc > img {
+    width: 100%;
+  }
+}
+@media all {
+  .header-bg {
+    background-color: #666666;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
   }
 }

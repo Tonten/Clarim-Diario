@@ -54,10 +54,10 @@
     });
     
         /* button  #btn_footer_dicas */
-    $(document).on("click", "#btn_footer_dicas", function(evt)
+    $(document).on("click", "#btn_footer_bbc", function(evt)
     {
          /*global activate_subpage */
-         activate_subpage("#dicas"); 
+         activate_subpage("#bbc"); 
     });
     
         /* button  #btn_footer_menu */
@@ -92,6 +92,76 @@
     {
          /*global activate_subpage */
          activate_subpage("#page_1_18"); 
+    });
+    
+        /* button  #btn_footer_sites */
+    $(document).on("click", "#btn_footer_sites", function(evt)
+    {
+         /*global activate_subpage */
+         activate_subpage("#dicas"); 
+    });
+    
+        /* graphic button  #ac24_button1 */
+    $(document).on("click", "#ac24_button1", function(evt)
+    {
+         /*global activate_subpage */
+         activate_subpage("#ac24"); 
+    });
+    
+        /* graphic button  #g1_button1 */
+    $(document).on("click", "#g1_button1", function(evt)
+    {
+         /*global activate_subpage */
+         activate_subpage("#g1_page"); 
+    });
+    
+        /* graphic button  #bbc_button1 */
+    $(document).on("click", "#bbc_button1", function(evt)
+    {
+         /*global activate_subpage */
+         activate_subpage("#dicas"); 
+    });
+    
+        /* graphic button  #ac24_button2 */
+    $(document).on("click", "#ac24_button2", function(evt)
+    {
+         /*global activate_subpage */
+         activate_subpage("#ac24"); 
+    });
+    
+        /* graphic button  #g1_button2 */
+    $(document).on("click", "#g1_button2", function(evt)
+    {
+         /*global activate_subpage */
+         activate_subpage("#g1_page"); 
+    });
+    
+        /* graphic button  #bbc_button2 */
+    $(document).on("click", "#bbc_button2", function(evt)
+    {
+         /*global activate_subpage */
+         activate_subpage("#dicas"); 
+    });
+    
+        /* button  #home_button */
+    $(document).on("click", "#home_button", function(evt)
+    {
+         /*global activate_subpage */
+         activate_subpage("#page_85_38"); 
+    });
+    
+        /* button  #button_config */
+    $(document).on("click", "#button_config", function(evt)
+    {
+         /*global activate_page */
+         activate_page("#uib_page_1"); 
+    });
+    
+        /* button  #button_home_config */
+    $(document).on("click", "#button_home_config", function(evt)
+    {
+         /*global activate_subpage */
+         activate_subpage("#page_85_38"); 
     });
     
     }
